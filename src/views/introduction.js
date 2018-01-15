@@ -87,7 +87,7 @@ export default () => (
 		</div>
 
 		<div style={{textAlign: 'center', paddingTop: '10px', paddingBottom: '40px'}}>
-			<img src="/assets/github_captions.jpg" style={{width: '100%', maxWidth: '930px'}}/>
+			<img src="https://monsterooo.github.io/getbem.com/assets/github_captions.jpg" style={{width: '100%', maxWidth: '930px'}}/>
 		</div>
 
 		<h2>幕后</h2>
@@ -95,7 +95,7 @@ export default () => (
 		<p>现在我们来看一下一个具体的<code>button</code>如何使用BEM来实现，这里使用 <a href="http://primercss.io/buttons/">GitHub</a>页面上的一个按钮</p>
 
 		<div style={{textAlign: 'center', paddingTop: '10px', paddingBottom: '40px'}}>
-			<img src="/assets/github_buttons.jpg" style={{width: '100%', maxWidth: '361px'}}/>
+			<img src="https://monsterooo.github.io/getbem.com/assets/github_buttons.jpg" style={{width: '100%', maxWidth: '361px'}}/>
 		</div>
 
 		<p>通常情况下我们有一个按钮, 还有两个不同的状态， 因为我们的样式css选择器使用了BEM，我们可以使用任何标签上实现比如 (<code>button</code>, <code>a</code> 甚至 <code>div</code>). 根据命名规则我们要使用 <code>block--modifier-value</code> 语法.</p>

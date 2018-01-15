@@ -7,7 +7,7 @@ export default function (state) {
 		return (
 			<div className="header">
 				{navbar(state)}
-				<img src="/assets/b_.svg" alt="b_"/>
+				<img src="https://monsterooo.github.io/getbem.com/assets/b_.svg" alt="b_"/>
 			</div>
 		);
 	}

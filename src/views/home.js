@@ -48,8 +48,8 @@ function introductionPanel() {
 	return panel({
 		type: 'introduction',
 		title: '简介',
-		link: '/introduction/',
-		img: '/assets/ic_book_white_24px.svg',
+		link: 'https://monsterooo.github.io/getbem.com/introduction/',
+		img: 'https://monsterooo.github.io/getbem.com/assets/ic_book_white_24px.svg',
 		children: (
 			<p>
 				BEM是一个非常有用，功能强大且简单的命名约定，使您的前端代码更易于阅读和理解，易于使用，易于扩展，更强大和更明确，并且更严格。
@@ -62,8 +62,8 @@ function namingPanel() {
 	return panel({
 		type: 'naming',
 		title: '命名',
-		link: '/naming/',
-		img: '/assets/ic_text_format_white_24px.svg',
+		link: 'https://monsterooo.github.io/getbem.com/naming/',
+		img: 'https://monsterooo.github.io/getbem.com/assets/ic_text_format_white_24px.svg',
 		children: (
 			<p>
 				BEM方法确保参与网站开发的每个人都可以使用统一的代码库并使用相同的语言。 使用BEM的适当的命名约定会更好地为您的网站设计更改做好准备。
@@ -76,8 +76,8 @@ function questionsPanel() {
 	return panel({
 		type: 'questions',
 		title: 'FAQ',
-		link: '/faq/',
-		img: '/assets/ic_question_answer_white_24px.svg',
+		link: 'https://monsterooo.github.io/getbem.com/faq/',
+		img: 'https://monsterooo.github.io/getbem.com/assets/ic_question_answer_white_24px.svg',
 		children: (
 			<div>
 				<p><i>— <a href="/faq/#custom-tags-for-blocks">Why do I need CSS classes for block instead of using semantic custom tags?</a></i></p>

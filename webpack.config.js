@@ -25,23 +25,23 @@ const config = getConfig({
 					'author': 'Vsevolod Strukchinsky, Vladimir Starkov and contributors',
 					'twitter:card': 'summary',
 					'twitter:site': '@getbem',
-					'og:image': 'http://getbem.com/assets/bem_black.png',
-					'og:url': 'http://getbem.com/',
+					'og:image': 'https://monsterooo.github.io/getbem.com/bem_black.png',
+					'og:url': 'https://monsterooo.github.io/getbem.com/',
 					'og:title': 'BEM — Block Element Modifier',
 					'og: description': 'BEM — Block Element Modifier is a methodology, that helps you to achieve reusable components and code sharing in the front-end.'
 				},
 				head: [
-					'<link rel="icon" type="image/png" href="/assets/favicon.png"/>'
+					'<link rel="icon" type="image/png" href="https://monsterooo.github.io/getbem.com//assets/favicon.png"/>'
 				],
 				html: toHtml(app(state))
 			});
 		}
 
 		return {
-			'index.html': render({url: '/'}),
-			'introduction/index.html': render({url: '/introduction/'}),
-			'naming/index.html': render({url: '/naming/'}),
-			'faq/index.html': render({url: '/faq/'})
+			'index.html': render({url: 'https://monsterooo.github.io/getbem.com/'}),
+			'introduction/index.html': render({url: 'https://monsterooo.github.io/getbem.com/introduction/'}),
+			'naming/index.html': render({url: 'https://monsterooo.github.io/getbem.com/naming/'}),
+			'faq/index.html': render({url: 'https://monsterooo.github.io/getbem.com/faq/'})
 		};
 	}
 });
