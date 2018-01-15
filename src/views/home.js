@@ -1,18 +1,18 @@
 export default () => (
 	<div className="index">
 		<div className="description">
-			BEM — Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development
+			BEM — Block Element Modifier 是一种帮助你创建可复用的组件和前端开发代码共享
 		</div>
 		<div className="container" style={{marginBottom: '50px'}}>
 			<div className="row">
 				<div className="column">
-					{advantage({title: 'Easy', color: 'block', text: 'To use BEM, you only need to employ BEM’s naming convention.'})}
+					{advantage({title: '简单', color: 'block', text: '使用BEM很简单，你只需要采用BEM命名约定即可。'})}
 				</div>
 				<div className="column">
-					{advantage({title: 'Modular', color: 'element', text: 'Independent blocks and CSS selectors make your code reusable and modular.'})}
+					{advantage({title: '模块化', color: 'element', text: '独立blocks 和 css选择器使你的代码模块化和可重用。'})}
 				</div>
 				<div className="column">
-					{advantage({title: 'Flexible', color: 'modifier', text: 'Using BEM, methodologies and tools can be recomposed and configured the way you like.'})}
+					{advantage({title: '可扩展', color: 'modifier', text: '使用BEM方法和工具可以按照你习惯的方式重新组合和配置。'})}
 				</div>
 			</div>
 		</div>
@@ -47,11 +47,13 @@ function panel({type, title, link, img, children}) {
 function introductionPanel() {
 	return panel({
 		type: 'introduction',
-		title: 'Introduction',
+		title: '简介',
 		link: '/introduction/',
 		img: '/assets/ic_book_white_24px.svg',
 		children: (
-			<p>BEM is a highly useful, powerful, and simple naming convention that makes your front-end code easier to read and understand, easier to work with, easier to scale, more robust and explicit, and a lot more strict.</p>
+			<p>
+				BEM是一个非常有用，功能强大且简单的命名约定，使您的前端代码更易于阅读和理解，易于使用，易于扩展，更强大和更明确，并且更严格。
+				</p>
 		)
 	});
 }
@@ -59,11 +61,13 @@ function introductionPanel() {
 function namingPanel() {
 	return panel({
 		type: 'naming',
-		title: 'Naming',
+		title: '命名',
 		link: '/naming/',
 		img: '/assets/ic_text_format_white_24px.svg',
 		children: (
-			<p>The BEM approach ensures that everyone who participates in the development of a website works with a single codebase and speaks the same language. Using BEM’s proper naming convention will better prepare you for design changes made to your website.</p>
+			<p>
+				BEM方法确保参与网站开发的每个人都可以使用统一的代码库并使用相同的语言。 使用BEM的适当的命名约定会更好地为您的网站设计更改做好准备。
+			</p>
 		)
 	});
 }
@@ -89,7 +93,7 @@ function companiesPanel() {
 	return (
 		<div className="panel panel--companies">
 			<div className="panel__container">
-				<h2>Companies using BEM</h2>
+				<h2>使用BEM的公司</h2>
 				<ul>
 					<li><a href="https://yandex.com" title="Yandex"><img src="/assets/companies/yandex.png"/></a></li>
 					<li><a href="http://www.jetbrains.com" title="JetBrains"><img src="/assets/companies/jetbrains.png"/></a></li>
